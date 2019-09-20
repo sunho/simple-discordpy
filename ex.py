@@ -1,7 +1,9 @@
-from simdis import *
-sdstart('NjIzNzYzMDM3ODc4NDg0OTky.XYHNIQ.CnxcwqPXTnkWUoQYoKVzTfa8FJg')
+from sd import *
+sdstart('NjIzNzYzMDM3ODc4NDg0OTky.XYKb-w.uQGt8Pa7rD2NAY6snb-vsk94yGA')
 
+hp=10
 while "Hello" == "Hello":
     a=sdinput()
     if a == 'Hello':
-        sdprint('World')
+        hp=hp-10
+        sdprint(hp)
