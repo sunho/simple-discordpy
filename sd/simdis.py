@@ -36,5 +36,7 @@ def sdstart(token):
 def sdstop():
     asyncio.run_coroutine_threadsafe(client.close(), loop)
 
-def sdprint(msg):
-    asyncio.run_coroutine_threadsafe(client.send_msg(msg), loop).result()
+def sdprint(*values):
+    asyncio.run_coroutine_threadsafe(client.send_msg(' '.join([str(value) for value in values])), loop).result()
+
+
