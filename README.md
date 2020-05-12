@@ -2,7 +2,7 @@
 
 Targetting students who learn python for the first time, this library wraps discord.py to eliminate the complex syntaxes such as await and class. 
 
-The library was able to motivate the students by enabling them to use python for applications in real world without learning extra notions.
+The library was able to motivate the students I taught by enabling them to use python for applications in real world without learning extra notions.
 
 ## Installation
 
